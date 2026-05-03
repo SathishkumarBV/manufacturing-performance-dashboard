@@ -1,5 +1,5 @@
 Manufacturing Performance Dashboard (Power BI)
-
+![Dashboard Overview](dashboard_overview.pdf)
 Overview
 
 The Manufacturing Performance Dashboard is a Power BI project built to monitor and analyze key operational metrics across multiple plants, production lines, and machine types.
