@@ -1,0 +1,166 @@
+Manufacturing Performance Dashboard (Power BI)
+
+Overview
+
+The Manufacturing Performance Dashboard is a Power BI project built to monitor and analyze key operational metrics across multiple plants, production lines, and machine types.
+
+This dashboard focuses on equipment efficiency, machine reliability, defect trends, and downtime cost to help identify production bottlenecks and support data-driven operational decisions.
+
+---
+
+Project Objectives
+
+* Monitor Overall Equipment Effectiveness (OEE)
+* Track Availability and Quality Rate
+* Analyze MTBF (Mean Time Between Failures)
+* Analyze MTTR (Mean Time To Repair)
+* Identify machines with the highest defect rates
+* Measure downtime cost by machine type
+* Support preventive maintenance planning
+
+---
+
+Dashboard Features
+
+KPI Cards
+
+* Average OEE
+* Average Availability
+* Average Quality Rate
+* Total Downtime Cost
+
+Visualizations
+
+* OEE Trend by Date
+* MTBF vs MTTR by Machine Type
+* Defect Rate by Machine Type
+* Downtime Cost by Machine Type
+
+Interactive Filters
+
+* Plant
+* Production Line
+* Machine Type
+
+---
+
+Tools & Technologies Used
+
+* Power BI Desktop
+* Power Query
+* DAX (Data Analysis Expressions)
+* Excel / CSV Dataset
+
+---
+
+Key Business Insights
+
+* **Lathe machines** showed the highest defect rate and downtime cost, making them the primary operational bottleneck.
+* **Packaging and CNC machines** also contributed significantly to production losses.
+* **Quality Rate (~98%)** remained consistently strong, indicating that the major losses were caused more by downtime and equipment reliability than by product quality issues.
+* A sharp OEE decline on **Jan 5** suggested a potential operational disruption requiring root cause analysis.
+
+---
+
+KPI Definitions
+
+OEE (Overall Equipment Effectiveness)
+
+OEE = Availability × Performance × Quality
+
+Availability
+
+Availability = MTBF / (MTBF + Downtime)
+
+MTBF
+
+Mean Time Between Failures (Hours)
+
+MTTR
+
+Mean Time To Repair (Converted from Minutes to Hours)
+
+---
+
+Business Value
+
+This dashboard helps organizations:
+
+* Reduce downtime cost
+* Prioritize machine maintenance
+* Improve operational efficiency
+* Increase equipment reliability
+* Identify defect-heavy machines
+* Improve production decision-making
+
+---
+
+Project Structure
+
+```bash
+Manufacturing-Performance-Dashboard/
+│
+├── Manufacturing_Dashboard.pbix
+├── dashboard-overview.png
+├── dataset.csv
+└── README.md
+```
+
+---
+
+Learning Outcomes
+
+Through this project, I developed skills in:
+
+* Data cleaning and transformation using Power Query
+* DAX formula creation
+* KPI dashboard design
+* Manufacturing analytics
+* Business storytelling with data
+* Root cause analysis
+
+---
+
+Future Improvements
+
+* Predictive maintenance dashboard
+* Shift-wise and plant-wise drill-through pages
+* Defect vs downtime scatter analysis
+* Monthly trend expansion
+* Automated anomaly alerts for OEE drops
+
+---
+
+How to Use
+
+1. Download the `.pbix` file
+2. Open in Power BI Desktop
+3. Load dataset if needed
+4. Explore KPIs using slicers and filters
+
+---
+
+Screenshots
+
+Main Dashboard
+
+Add your dashboard screenshot here:
+
+```markdown
+![Dashboard Overview](dashboard-overview.png)
+```
+
+---
+
+Author
+
+Sathishkumar B V
+Operation Data Handling | Power BI | Excel | SQL
+
+---
+
+Conclusion
+
+This project demonstrates how Power BI can be used to transform manufacturing data into actionable operational intelligence by combining KPI monitoring, machine-level analysis, and business insight generation.
+
+It is designed as both a practical manufacturing analytics solution and a portfolio project for data analytics opportunities.
